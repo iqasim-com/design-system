@@ -4,14 +4,14 @@
   "version": "0.1.1",
   "main": "./dist/design-system.umd.js",
   "module": "./dist/design-system.es.js",
-  "types": "./dist/types/index.d.ts",
+  "types": "./dist/types/main.d.ts",
   "files": [
     "dist"
   ],
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsc && vite build",
+    "build": "vite build && npx tsc",
     "lint": "eslint .",
     "preview": "vite preview"
   },
