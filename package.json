@@ -4,7 +4,7 @@
   "version": "0.1.2",
   "main": "./dist/design-system.umd.js",
   "module": "./dist/design-system.es.js",
-  "types": "./dist/types/main.d.ts",
+  "types": "./dist/types/index.d.ts",
   "files": [
     "dist"
   ],
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@types/node": "^22.14.1",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
