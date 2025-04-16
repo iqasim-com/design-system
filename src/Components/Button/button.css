@@ -1,0 +1,15 @@
+.btn {
+    padding: 5px;
+    color: inherit;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4CAF50;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #43a147;
+}
