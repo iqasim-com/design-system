@@ -7,9 +7,41 @@
 }
 .btn-primary {
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #0070bd;
 }
 .btn-primary:hover {
     color: #fff;
+    background-color: #0167ae;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #9e9e9e;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #8e8e8e;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #f44336;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #e53935;
+}
+.btn-success {
+    color: #fff;
+    background-color: #4CAF50;
+}
+.btn-success:hover {
+    color: #fff;
     background-color: #43a147;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #ff9800;
+}
+.btn-warning:hover {
+    color: #fff;
+    background-color: #f57c00;
 }
